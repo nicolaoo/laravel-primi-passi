@@ -22,6 +22,7 @@
 
 <style>
     body {
+        overflow: hidden;
         height: 100vh;
         width: 100vw;
         background: rgb(242, 59, 47);
@@ -38,6 +39,16 @@
         justify-content: center;
         height: 80vh;
         width: 80vw;
+        overflow: hidden;
+    }
+
+    .logo-lara {
+        width: 100px;
+    }
+
+    .logo-lara:hover {
+        transform: rotate(300deg);
+        transition: linear 2s;
     }
 </style>
 
